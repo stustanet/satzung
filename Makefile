@@ -10,9 +10,9 @@ satzung.ps:	satzung.dvi
 
 # satzung.txt:	satzung.tex
 
-satzung/satzung.html:	satzung.tex
-	rm -rf satzung
-	latex2html satzung.tex
+#satzung/satzung.html:	satzung.tex
+#	rm -rf satzung
+#	latex2html satzung.tex
 
 clean::
 	rm -rf -- satzung *.dvi *.ps *.aux *.css *.log
