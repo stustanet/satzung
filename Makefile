@@ -1,5 +1,5 @@
 
-all:	satzung.dvi satzung.ps satzung/satzung.html
+all:	satzung.dvi satzung.ps
 
 satzung.dvi:	satzung.tex
 	latex satzung.tex
